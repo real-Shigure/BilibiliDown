@@ -1,1 +1,2 @@
-* 优化：收藏夹解析增加对不同种类的`已失效视频`的兼容处理[issue#66](https://github.com/nICEnnnnnnnLee/BilibiliDown/issues/66)  
+* 新增：普通视频新增8K清晰度(测试BV1KS4y197BN)  
+* 修复：撤销对UI的改动[issue#84](https://github.com/nICEnnnnnnnLee/BilibiliDown/issues/84)  

@@ -1,4 +1,26 @@
 ## UPDATE  
+* V6.8  `2021-12-07`  
+    * 新增：普通视频新增8K清晰度(测试BV1KS4y197BN)  
+    * 修复：撤销对UI的改动[issue#84](https://github.com/nICEnnnnnnnLee/BilibiliDown/issues/84)  
+* V6.7  `2021-11-21`  
+    * 修复弹幕内容为空的问题(测试BV1o44y1e7oU)[issue#81](https://github.com/nICEnnnnnnnLee/BilibiliDown/issues/81)  
+* V6.6  `2021-11-14`  
+    * 修复: 去除路径中可能存在的非法字符`\t`[issue#79](https://github.com/nICEnnnnnnnLee/BilibiliDown/issues/79)  
+* V6.5  `2021-10-16`  
+    * 修复：添加跳过HTTPS证书认证选项[issue#77](https://github.com/nICEnnnnnnnLee/BilibiliDown/issues/77)  
+    * 优化： 在自定义文件名配置项中，可以添加收藏时间和更新时间
+        + 例如，下面配置的可能的文件名称如右边：**标题-211016-pn1-小标题-80**
+        ```
+        bilibili.name.date.favTime.pattern = yyMMdd
+        bilibili.name.format = avTitle-(:favTime favTime-)pDisplay-clipTitle-qn
+        ```
+    * 优化： 在自定义文件名配置项中，序号可以指定宽度，不足补零。原来的用法不受影响。
+        + 例如`pAv2-pDisplay3`, 对应名称可能为`p01-pn001`、`p02-pn002`...`p111-pn111`
+    * 优化版本更新功能，使得windows下直接双击update.bat脚本也能更新
+    * 给MenuBar设置PreferSize
+* V6.4  `2021-09-13`  
+    * 修复：解决合并分段的flv文件时有可能陷入死循环的问题[issue#72](https://github.com/nICEnnnnnnnLee/BilibiliDown/issues/72)  
+    * 移除：自定义host功能  
 * V6.3  `2021-05-02`  
     * 优化：收藏夹解析增加对不同种类的`已失效视频`的兼容处理[issue#66](https://github.com/nICEnnnnnnnLee/BilibiliDown/issues/66)  
 * V6.2  `2021-04-21`
